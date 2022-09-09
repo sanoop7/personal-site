@@ -1,0 +1,166 @@
+.contact_modal_con {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    box-shadow: inset -0.389rem -0.389rem 0.389rem #3b4451, inset 0.233rem 0.233rem 0.389rem #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_modal {
+    padding: 1rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fafafa;
+    border: 1px solid #e6e6e6;
+    height: 60%;
+    width: 60%;
+    background-color: #2e333a;
+    box-shadow: inset -0.389rem -0.389rem 0.389rem #3b4451, inset 0.233rem 0.233rem 0.389rem #000000;
+}
+
+.contact_modal_header {
+    display: flex;
+    height: 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contact_modal_header_tittle {
+
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.close_btn {
+    height: 100%;
+    cursor: pointer;
+}
+
+.close_btn:hover {
+    background-color: #383c42;
+}
+
+.contact_modal_body {
+    height: 92%;
+    display: flex;
+    color: #b6b6b6;
+}
+
+.contact_modal_body_sec1 {
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact_modal_body_sec2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.contact_cards_con {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-right: 6rem;
+    width: 15rem;
+    border-right: 1px solid #fdfdfdfd;
+}
+
+.contact_cards {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #383c42;
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+.contact_cards_icon_con {
+    height: 69%;
+    width: 21%;
+    background-color: #1f2022;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.contact_cards_icon {
+    height: 50%;
+    width: 50%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_btn {
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0.389rem 0.389rem 1.167rem #000000;
+    border-radius: 0.75rem;
+    border: 1px solid #fafafa;
+    background-color: #2e333a;
+    font-family: 'La Belle Aurore', cursive;
+    color: #b6b6b6;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form_btn:active {
+    box-shadow: inset -0.389rem -0.389rem 0.389rem #3b4451, inset 0.233rem 0.233rem 0.389rem #000000;
+    color: #177065;
+    border: 1px solid #050505;
+
+}
+
+.form_group {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.form_input {
+    height: 2rem;
+    background-color: #383c42;
+    border: none;
+    color: #fafafa;
+    outline: none;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.form_text_area {
+    margin-top: 10px;
+    height: 5rem;
+    padding: 10px;
+    background-color: #383c42;
+    border: none;
+    outline: none;
+    color: #fafafa;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}

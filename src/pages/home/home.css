@@ -1,0 +1,46 @@
+.home {
+    background: #2E333A;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    transition: 1s;
+}
+
+.homeHO {
+    background: #2E333A;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header_conr_max {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 35rem;
+    transition: 1s;
+}
+
+.header_conr_min {
+    height: 4.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    transition: 1s;
+}
+
+.main_sec {
+    padding-top: 35rem;
+    transition: 2s;
+    height: 100%;
+    width: 100%;
+
+}
+
+.main_sec_type2 {
+    padding-top: 10rem;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+}
