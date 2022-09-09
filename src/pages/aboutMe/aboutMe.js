@@ -13,7 +13,7 @@ function AboutMe() {
         </span>
       </div>
       <div className="section_2">
-        <img src={pic} />
+        <img src={pic} alt="pro-pic" />
       </div>
     </div>
   );
