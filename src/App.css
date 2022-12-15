@@ -188,7 +188,7 @@ table {
     }
     .about_me {
         flex-direction: column;
-        height: calc(100vh - 6rem);
+        height: calc(100vh - 10rem);
         justify-content: space-between;
     }
     .project_main {
