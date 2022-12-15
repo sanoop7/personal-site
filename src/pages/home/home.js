@@ -7,7 +7,6 @@ function HomePage() {
   const [scroll, setScroll] = useState(false);
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [overFlow, setOverFlow] = useState("home");
-
   const [headerClass, setHeaderClass] = useState("header_conr_max");
   const [mainSecClass, setMainSecClass] = useState("main_sec");
   const change_onScroll = () => {

@@ -44,3 +44,13 @@
     height: 100%;
     width: 100%;
 }
+::-webkit-scrollbar {
+    height: 0.313rem;
+    width: 0.313rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

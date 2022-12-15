@@ -1,0 +1,33 @@
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    background: #2E333A;
+    height: calc(100vh - 10.9rem);
+}
+
+.section_1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1_head {
+    color: #c8c8c8;
+    margin: 0;
+    font-family: font-file-82132;
+    font-weight: 400;
+    font-size: 4.3rem;
+}
+
+.about {
+    color: #8f8989;
+    margin-top: 2rem;
+}

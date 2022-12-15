@@ -32,7 +32,12 @@ function Header(props) {
           </div>
         </>
       ) : (
-        <>
+        <div className="header_min">
+          <div className="header_left_nav">
+           <div className="header_left_nav_item">&lt;Myself & I&gt;</div>
+           <div className="header_left_nav_item">&lt;Projects&gt;</div>
+          </div>
+          <div className="header_right_nav">
           <div className="social_cards_con">
             <div className="social_cards" onClick={() => OpenNewTab("git")}>
               <img className="social_cards_icon" alt="pro_pic" src={git} />
@@ -47,7 +52,8 @@ function Header(props) {
           <div className="profile_min">
             <img className="pro_pic" alt="pro_pic" src={pic} />
           </div>
-        </>
+          </div>
+        </div>
       )}
     </div>
   );

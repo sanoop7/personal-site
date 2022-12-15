@@ -7,9 +7,9 @@ function AboutMe() {
       <div className="section_1">
         <span className="Myself_I">Myself & I</span>
         <span className="about">
-          I’m a Front-End Developer located in Poland. I have a serious passion
+          I’m a Front-End Developer located in India. I have a serious passion
           for UI effects, animations and creating intuitive, dynamic user
-          experiences. I’m a Front-End Developer located in Keral,India.
+          experiences.
         </span>
       </div>
       <div className="section_2">

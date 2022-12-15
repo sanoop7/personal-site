@@ -9,7 +9,19 @@
     transition: 0.5s;
     position: relative;
 }
-
+.header_min {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 3rem;
+}
+.header_right_nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 70%;
+}
 
 
 .details {
@@ -34,9 +46,6 @@
     height: 100%;
     display: flex;
     align-items: center;
-    top: 0;
-    right: 5rem;
-    position: absolute;
 }
 
 .pro_pic {
@@ -126,7 +135,6 @@
 .social_cards_con {
     display: flex;
     align-items: center;
-    margin-left: 70%;
     gap: 1rem;
 }
 
@@ -145,4 +153,23 @@
 .social_cards_icon {
     height: 50%;
     width: 50%;
+}
+.header_left_nav {
+    display: flex;
+    gap: 1rem;
+}
+.header_left_nav_item{
+    font-family: 'La Belle Aurore', cursive;
+    color: #aeb3b2;
+    font-size: 1rem;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.header_left_nav_item:hover{
+    color: #177065;
+
+}
+.nav_item_active{
+    color: #177065;
+    border-bottom: 2px solid;
 }
