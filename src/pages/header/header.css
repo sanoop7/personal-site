@@ -169,7 +169,7 @@
     color: #177065;
 
 }
-.nav_item_active{
+.header_left_nav_item.active{
     color: #177065;
     border-bottom: 2px solid;
 }

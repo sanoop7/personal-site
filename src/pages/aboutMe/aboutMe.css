@@ -4,6 +4,7 @@
     padding: 3rem;
     background: #2E333A;
     height: calc(100vh - 10.9rem);
+    border-bottom: 1px solid #fff;
 }
 
 .section_1 {

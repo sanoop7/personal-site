@@ -3,7 +3,7 @@ import "./aboutMe.css";
 import pic from "../../assets/about.png";
 function AboutMe() {
   return (
-    <div className="about_me">
+    <div className="about_me" id="aboutMe">
       <div className="section_1">
         <span className="Myself_I">Myself & I</span>
         <span className="about">

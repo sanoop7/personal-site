@@ -3,6 +3,7 @@ import "./home.css";
 import Header from "../header/header";
 import AboutMe from "../aboutMe/aboutMe";
 import ContactModal from "../../components/contactMeModal/ContactModal";
+import Projects from "../projects/projects";
 function HomePage() {
   const [scroll, setScroll] = useState(false);
   const [contactModalOpen, setContactModalOpen] = useState(false);
@@ -35,7 +36,9 @@ function HomePage() {
         </div>
         <div className={mainSecClass}>
           <AboutMe />
+          <Projects />
           <AboutMe />
+
         </div>
       </div>
       {contactModalOpen && (

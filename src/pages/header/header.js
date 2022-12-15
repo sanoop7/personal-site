@@ -3,6 +3,7 @@ import "./header.css";
 import pic from "../../assets/profile.jpg";
 import git from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
+import { Link } from "react-scroll";
 
 function Header(props) {
   function OpenNewTab(params) {
@@ -34,8 +35,8 @@ function Header(props) {
       ) : (
         <div className="header_min">
           <div className="header_left_nav">
-           <div className="header_left_nav_item">&lt;Myself & I&gt;</div>
-           <div className="header_left_nav_item">&lt;Projects&gt;</div>
+           <Link to="aboutMe" spy={true} smooth={true} offset={-80} duration={500} className="header_left_nav_item">&lt;Myself & I&gt;</Link>
+           <Link to="projects" spy={true} smooth={true} offset={-75} duration={500} className="header_left_nav_item">&lt;Projects&gt;</Link>
           </div>
           <div className="header_right_nav">
           <div className="social_cards_con">
