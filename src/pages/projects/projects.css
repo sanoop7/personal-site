@@ -47,7 +47,9 @@
     background-repeat: no-repeat;   
     background-size: contain;
 }
-
+.project_item_active{
+    border: 2px solid #177065;
+}
 .project_item:hover{
     width: 16rem;
 }
