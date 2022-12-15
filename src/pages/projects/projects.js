@@ -16,7 +16,6 @@ function Projects() {
       <div className="project_main">
        <div className="projects_main_list">
         <div className="project_item">
-          {/* <img src={} alt="project_icon" /> */}
           <div className="project_links">
             <div className="demo_link" onClick={() => OpenNewTab("demo")}><img className="project_links_icon" alt="pro_pic" src={linkIcon}  />Demo</div>
             <div className="repo_link" onClick={() => OpenNewTab("git")}><img className="project_links_icon" alt="pro_pic" src={git} />Repo</div>

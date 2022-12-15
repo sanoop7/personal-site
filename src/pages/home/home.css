@@ -19,15 +19,11 @@
     width: 100%;
     z-index: 3;
     height: 35rem;
-    transition: 1s;
+    transition: 2s;
 }
 
 .header_conr_min {
     height: 4.5rem;
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-    transition: 1s;
 }
 
 .main_sec {
