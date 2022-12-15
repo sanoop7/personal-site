@@ -6,8 +6,8 @@ function Projects() {
  
   function OpenNewTab(params) {
     params === "git"
-      ? window.open("https://github.com/sanoop7", "_blank")
-      : window.open("https://www.linkedin.com/in/sanoop-m", "_blank");
+      ? window.open("https://github.com/sanoop7/Tictacktoe", "_blank")
+      : window.open("https://tic-tac-toe-sanoop.netlify.app", "_blank");
   }
 
   return (
@@ -18,13 +18,13 @@ function Projects() {
         <div className="project_item">
           {/* <img src={} alt="project_icon" /> */}
           <div className="project_links">
-            <div className="demo_link"><img className="project_links_icon" alt="pro_pic" src={linkIcon} />Demo</div>
-            <div className="repo_link"><img className="project_links_icon" alt="pro_pic" src={git} />Repo</div>
+            <div className="demo_link" onClick={() => OpenNewTab("demo")}><img className="project_links_icon" alt="pro_pic" src={linkIcon}  />Demo</div>
+            <div className="repo_link" onClick={() => OpenNewTab("git")}><img className="project_links_icon" alt="pro_pic" src={git} />Repo</div>
           </div>
         </div>  
        </div>
        <div className="project_des">
-        
+
        </div>
       </div>
     </div>
