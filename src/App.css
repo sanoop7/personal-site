@@ -142,7 +142,7 @@ table {
     transition: 1s;
 }
 /* media queries */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
     html{
         font-size: 12px;
     }
