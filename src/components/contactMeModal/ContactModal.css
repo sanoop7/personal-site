@@ -19,7 +19,7 @@
     border: 1px solid #e6e6e6;
     height: 60%;
     width: 60%;
-    background-color: #2e333a;
+    background-color: black;
     box-shadow: inset -0.389rem -0.389rem 0.389rem #3b4451, inset 0.233rem 0.233rem 0.389rem #000000;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .close_btn:hover {
-    background-color: #383c42;
+    background-color: #101010;
 }
 
 .contact_modal_body {
@@ -84,7 +84,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: #383c42;
+    background-color: #101010;
     border-radius: 6px;
     font-size: 0.75rem;
 }
@@ -121,7 +121,7 @@ form {
     box-shadow: 0.389rem 0.389rem 1.167rem #000000;
     border-radius: 0.75rem;
     border: 1px solid #fafafa;
-    background-color: #2e333a;
+    background-color: black;
     font-family: 'La Belle Aurore', cursive;
     color: #b6b6b6;
     cursor: pointer;
@@ -130,7 +130,7 @@ form {
 
 .form_btn:active {
     box-shadow: inset -0.389rem -0.389rem 0.389rem #3b4451, inset 0.233rem 0.233rem 0.389rem #000000;
-    color: #177065;
+    color: #07d9bf;
     border: 1px solid #050505;
 
 }
@@ -142,7 +142,7 @@ form {
 
 .form_input {
     height: 2rem;
-    background-color: #383c42;
+    background-color: #101010;
     border: none;
     color: #fafafa;
     outline: none;
@@ -154,7 +154,7 @@ form {
     margin-top: 10px;
     height: 5rem;
     padding: 10px;
-    background-color: #383c42;
+    background-color: #101010;
     border: none;
     outline: none;
     color: #fafafa;

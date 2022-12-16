@@ -12,7 +12,7 @@ function Header(props) {
       : window.open("https://www.linkedin.com/in/sanoop-m", "_blank");
   }
   return (
-    <div className="header">
+    <div className="header" id={!props.scroll&&'tsparticles'} >
       {!props.scroll ? (
         <>
           <div className="details">
