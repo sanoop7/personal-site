@@ -146,6 +146,9 @@ table {
     html{
         font-size: 12px;
     }
+    .header_conr_max{
+        height: 50rem;
+    }
     .profile_max {
         display: none;
     }
@@ -175,7 +178,7 @@ table {
         margin-left: 0;
     }
     .header_conr_min {
-        height: 5rem;
+        height: 6rem;
     }
     .main_sec_type2 {
         padding-top: 9rem;
