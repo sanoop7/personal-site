@@ -163,19 +163,20 @@ table {
         font-size: 2.91rem;
     }
     .name:before {
-        left: 3rem;
-        top: 6rem;
+        left: 3.5rem;
+        top: 18rem;
     }
     .name::after {
-        left: 24rem;
+        left: 26rem;
+        top: 28rem;
     }
     .details:before {
         left: 1.5rem;
-        top: 2rem;
+        top: 14rem;
     }
     .details::after {
         left: 1.5rem;
-        top: 28rem;
+        top: 33rem;
     }
     .header_right_nav {
         padding: 1rem 0;
