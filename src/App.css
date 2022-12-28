@@ -231,10 +231,10 @@ table {
     img.send_icon {
         width: 30%;
     } 
-    .col-4 {
+    /* .col-4 {
         flex: 0 0 auto;
         width: 8%;
-    } 
+    }  */
     .tech-icons {
         font-size: 2rem !important;
     }
