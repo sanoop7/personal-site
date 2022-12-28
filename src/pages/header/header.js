@@ -2,6 +2,8 @@ import React from "react";
 import "./header.css";
 import pic from "../../assets/profile.jpg";
 import git from "../../assets/github.png";
+import Tilt from "react-parallax-tilt";
+import Typewriter from "typewriter-effect";
 import linkedin from "../../assets/linkedin.png";
 import { Link } from "react-scroll";
 
@@ -14,10 +16,19 @@ function Header(props) {
   return (
     <div className="header" id={!props.scroll&&'tsparticles'} >
       {!props.scroll ? (
-        <>
+        <><Tilt>
           <div className="details">
-            <span className="name">Hi, I'm SANOOP </span>
-            <span className="developer">web developer</span>
+            <span className="name"><span className="hi_there">Hi There!{" "}
+            <span className="wave" role="img" aria-labelledby="wave">
+              👋🏻
+            </span></span><br />I'm SANOOP </span>
+            <span className="developer">
+            <Typewriter
+              options={{
+              strings: ["Front End Web Developer", "Engineer", "Quick Learner"],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 50}}/></span>
             <div
               className="contact_me"
               onClick={() => {
@@ -27,10 +38,10 @@ function Header(props) {
             >
               contact me!
             </div>
-          </div>
+          </div></Tilt><Tilt>
           <div className="profile_max">
-            <img className="pro_pic" alt="pro_pic" src={pic} />
-          </div>
+             <img className="pro_pic" alt="pro_pic" src={pic} />
+          </div></Tilt>
         </>
       ) : (
         <div className="header_min">

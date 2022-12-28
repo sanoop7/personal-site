@@ -20,15 +20,63 @@
     justify-content: center;
 }
 
-.Myself_I {
+.Myself {
     color: #c8c8c8;
     margin: 0;
     font-family: font-file-82132;
     font-weight: 400;
     font-size: 4.3rem;
 }
-
+.Myself_I {
+    color: #06c5ad;
+}
 .about {
     color: #8f8989;
+    margin-top: 2rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    color: white !important;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 20%;
+}
+.tech-icons {
+    font-size: 3rem !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid #ffffff !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    /* box-shadow: 4px 5px 4px 3px #048573 !important; */
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+}
+img, svg {
+    vertical-align: middle;
+}
+.tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid #06c5ad !important;
+}
+.tech-icons-name{
+    font-size: 1rem;
+}
+.Professional_skill{
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
 }
